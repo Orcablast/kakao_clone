@@ -20,13 +20,13 @@
 
 .chats-body {
   background-image: url("../images/chatBg.png");
-  min-height: 1000vh;
+  min-height: 120vh;
 }
 
 .chat__write {
   position: fixed;
   bottom: 50px;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   left: 0;
   right: 0;
