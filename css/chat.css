@@ -107,10 +107,11 @@
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   padding: 8px 20px;
   border-radius: 20px;
+  display: block;
 }
 
 .incoming-message .message__author {
-  margin-bottom: 25px;
+  margin-bottom: 6px;
   display: block;
   font-weight: 600;
   font-size: 12px;
@@ -122,4 +123,8 @@
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
+}
+
+.message__bubble-secondary {
+  margin-left: 65px;
 }
