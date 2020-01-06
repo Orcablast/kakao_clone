@@ -48,6 +48,10 @@
   width: 80%;
 }
 
+.chat__write-column .chat__write-icon {
+  display: inline;
+}
+
 .chat__write-column input {
   padding: 20px 10px;
   width: 100%;
