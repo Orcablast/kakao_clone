@@ -6,13 +6,9 @@ function getTime() {
   const minutes = date.getMinutes();
   const hours = date.getHours();
   const seconds = date.getSeconds();
-<<<<<<< HEAD
-  clockTitle.innerText = `${hours < 12 ? `오전` : "오후"} ${hours < 10 ? `0${hours}` : `${hours > 12 ? `0${hours-12}`:`${hours}`}`}:${minutes < 10 ? `0${minutes}` : minutes}:${
-=======
   clockTitle.innerText = `${hours < 12 ? `오전` : "오후"} ${
-    hours < 10 ? `0${hours}` : `0${hours - 12}`
+    hours < 10 ? `0${hours}` : `${hours > 12 ? `0${hours - 12}` : `${hours}`}`
   }:${minutes < 10 ? `0${minutes}` : minutes}:${
->>>>>>> parent of 8fa20cc... clock update 0128
     seconds < 10 ? `0${seconds}` : seconds
   }`;
 }
